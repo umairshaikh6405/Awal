@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A156EE7233E471C0059AA8E /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EE6233E471C0059AA8E /* UserDetailViewController.swift */; };
+		1A156EE9233F5D180059AA8E /* AppDataSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EE8233F5D180059AA8E /* AppDataSwift.swift */; };
+		1A156EEB233F66D90059AA8E /* AppSwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EEA233F66D90059AA8E /* AppSwiftData.swift */; };
+		1A156EEE233F79910059AA8E /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EED233F79910059AA8E /* CustomAlert.swift */; };
+		1A156EF2233F7A560059AA8E /* Extensino+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EF0233F7A540059AA8E /* Extensino+View.swift */; };
+		1A156EF3233F7A560059AA8E /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A156EF1233F7A540059AA8E /* Extension+Color.swift */; };
+		1A1BB0312345FD6900B357A2 /* veritas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A1BB0302345FD6900B357A2 /* veritas.jpg */; };
+		1A71696E2341FD2C007F18EE /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A71696A2341FD28007F18EE /* uncheck.png */; };
+		1A71696F2341FD2C007F18EE /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A71696B2341FD29007F18EE /* checked.png */; };
+		1A7169702341FD2C007F18EE /* radio_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A71696C2341FD2A007F18EE /* radio_black.png */; };
+		1A7169712341FD2C007F18EE /* radio_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A71696D2341FD2B007F18EE /* radio_fill.png */; };
+		1AD6D0E1233E18AE000880B5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0E0233E18AE000880B5 /* logo.png */; };
+		1AD6D0E5233E208A000880B5 /* awwal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0E2233E208A000880B5 /* awwal.png */; };
+		1AD6D0E6233E208A000880B5 /* awwalsurvey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0E3233E208A000880B5 /* awwalsurvey.png */; };
+		1AD6D0E7233E208A000880B5 /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0E4233E208A000880B5 /* life.png */; };
+		1AD6D0E9233E23AB000880B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6D0E8233E23AB000880B5 /* LoginViewController.swift */; };
+		1AD6D0F3233E27E4000880B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0F2233E27E4000880B5 /* Assets.xcassets */; };
+		1AD6D100233E2EAB000880B5 /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FA233E2EAB000880B5 /* Calibri Bold Italic.ttf */; };
+		1AD6D101233E2EAB000880B5 /* Calibri Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FB233E2EAB000880B5 /* Calibri Light Italic.ttf */; };
+		1AD6D102233E2EAB000880B5 /* Calibri Bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FC233E2EAB000880B5 /* Calibri Bold.TTF */; };
+		1AD6D103233E2EAB000880B5 /* Calibri Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FD233E2EAB000880B5 /* Calibri Italic.ttf */; };
+		1AD6D104233E2EAB000880B5 /* Calibri Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FE233E2EAB000880B5 /* Calibri Regular.ttf */; };
+		1AD6D105233E2EAB000880B5 /* Calibri Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D0FF233E2EAB000880B5 /* Calibri Light.ttf */; };
+		1ADAAB46233E125F00BAD8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAAB45233E125F00BAD8C6 /* AppDelegate.swift */; };
+		1ADAAB48233E125F00BAD8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAAB47233E125F00BAD8C6 /* SceneDelegate.swift */; };
+		1ADAAB4A233E125F00BAD8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAAB49233E125F00BAD8C6 /* ViewController.swift */; };
+		1ADAAB4D233E125F00BAD8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAAB4B233E125F00BAD8C6 /* Main.storyboard */; };
+		1ADAAB52233E126100BAD8C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAAB50233E126100BAD8C6 /* LaunchScreen.storyboard */; };
+		1ADAAB5D233E126100BAD8C6 /* Awwal_Tech_SurveysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAAB5C233E126100BAD8C6 /* Awwal_Tech_SurveysTests.swift */; };
+		1ADAAB68233E126100BAD8C6 /* Awwal_Tech_SurveysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAAB67233E126100BAD8C6 /* Awwal_Tech_SurveysUITests.swift */; };
+		1ADAAB76233E136900BAD8C6 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAAB75233E136900BAD8C6 /* splash.png */; };
+		6A04C9F1234CEFB6007DAD00 /* backarrowicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04C9F0234CEFB5007DAD00 /* backarrowicon.png */; };
+		6A9FE02B234A50BA008E3849 /* SurveyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE02A234A50BA008E3849 /* SurveyFormViewController.swift */; };
+		6A9FE02D234A54BF008E3849 /* FormPopulateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE02C234A54BF008E3849 /* FormPopulateData.swift */; };
+		6A9FE02F234A57F3008E3849 /* SurveyFormExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE02E234A57F3008E3849 /* SurveyFormExtension.swift */; };
+		6A9FE031234A58D6008E3849 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE030234A58D6008E3849 /* Constants.swift */; };
+		6A9FE038234A5CE5008E3849 /* GTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE033234A5CE4008E3849 /* GTableViewCell.swift */; };
+		6A9FE039234A5CE5008E3849 /* checkboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE034234A5CE4008E3849 /* checkboxTableViewCell.swift */; };
+		6A9FE03C234A5CE5008E3849 /* RadioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FE037234A5CE5008E3849 /* RadioTableViewCell.swift */; };
+		6AC97B04234BC6FA00B56A51 /* DynamicQuestionAns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC97B03234BC6FA00B56A51 /* DynamicQuestionAns.swift */; };
+		6AC97B06234BCF5C00B56A51 /* TextAreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC97B05234BCF5C00B56A51 /* TextAreaTableViewCell.swift */; };
+		7AF347C07CA7699471B9E68E /* Pods_Awwal_Tech_SurveysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97A9540670AE6580151794A /* Pods_Awwal_Tech_SurveysTests.framework */; };
+		C171DE8B830847D8D2160D3A /* Pods_Awwal_Tech_SurveysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996E90C566566E91AEEEA88 /* Pods_Awwal_Tech_SurveysUITests.framework */; };
+		C95F1097B723932F3DF832CA /* Pods_Awwal_Tech_Surveys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EBFFC86130198A8E6B87D5 /* Pods_Awwal_Tech_Surveys.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADAAB59233E126100BAD8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADAAB3A233E125F00BAD8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADAAB41233E125F00BAD8C6;
+			remoteInfo = "Awwal Tech Surveys";
+		};
+		1ADAAB64233E126100BAD8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADAAB3A233E125F00BAD8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADAAB41233E125F00BAD8C6;
+			remoteInfo = "Awwal Tech Surveys";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0028C6F3F9E49A8A9D6B5FD0 /* Pods-Awwal Tech SurveysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech SurveysUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech SurveysUITests/Pods-Awwal Tech SurveysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A156EE6233E471C0059AA8E /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		1A156EE8233F5D180059AA8E /* AppDataSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataSwift.swift; sourceTree = "<group>"; };
+		1A156EEA233F66D90059AA8E /* AppSwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSwiftData.swift; sourceTree = "<group>"; };
+		1A156EED233F79910059AA8E /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		1A156EF0233F7A540059AA8E /* Extensino+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensino+View.swift"; sourceTree = "<group>"; };
+		1A156EF1233F7A540059AA8E /* Extension+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		1A1BB0302345FD6900B357A2 /* veritas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veritas.jpg; sourceTree = "<group>"; };
+		1A71696A2341FD28007F18EE /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		1A71696B2341FD29007F18EE /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		1A71696C2341FD2A007F18EE /* radio_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_black.png; sourceTree = "<group>"; };
+		1A71696D2341FD2B007F18EE /* radio_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_fill.png; sourceTree = "<group>"; };
+		1AD6D0E0233E18AE000880B5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1AD6D0E2233E208A000880B5 /* awwal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awwal.png; sourceTree = "<group>"; };
+		1AD6D0E3233E208A000880B5 /* awwalsurvey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awwalsurvey.png; sourceTree = "<group>"; };
+		1AD6D0E4233E208A000880B5 /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
+		1AD6D0E8233E23AB000880B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1AD6D0F2233E27E4000880B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD6D0FA233E2EAB000880B5 /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold Italic.ttf"; sourceTree = "<group>"; };
+		1AD6D0FB233E2EAB000880B5 /* Calibri Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light Italic.ttf"; sourceTree = "<group>"; };
+		1AD6D0FC233E2EAB000880B5 /* Calibri Bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.TTF"; sourceTree = "<group>"; };
+		1AD6D0FD233E2EAB000880B5 /* Calibri Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Italic.ttf"; sourceTree = "<group>"; };
+		1AD6D0FE233E2EAB000880B5 /* Calibri Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Regular.ttf"; sourceTree = "<group>"; };
+		1AD6D0FF233E2EAB000880B5 /* Calibri Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light.ttf"; sourceTree = "<group>"; };
+		1ADAAB42233E125F00BAD8C6 /* Awwal Tech Surveys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awwal Tech Surveys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAAB45233E125F00BAD8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ADAAB47233E125F00BAD8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ADAAB49233E125F00BAD8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ADAAB4C233E125F00BAD8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ADAAB51233E126100BAD8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ADAAB53233E126100BAD8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADAAB58233E126100BAD8C6 /* Awwal Tech SurveysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awwal Tech SurveysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAAB5C233E126100BAD8C6 /* Awwal_Tech_SurveysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awwal_Tech_SurveysTests.swift; sourceTree = "<group>"; };
+		1ADAAB5E233E126100BAD8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADAAB63233E126100BAD8C6 /* Awwal Tech SurveysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awwal Tech SurveysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAAB67233E126100BAD8C6 /* Awwal_Tech_SurveysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awwal_Tech_SurveysUITests.swift; sourceTree = "<group>"; };
+		1ADAAB69233E126100BAD8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADAAB75233E136900BAD8C6 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		3996E90C566566E91AEEEA88 /* Pods_Awwal_Tech_SurveysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Awwal_Tech_SurveysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B6E420AD1563FD0719ACCE /* Pods-Awwal Tech SurveysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech SurveysUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech SurveysUITests/Pods-Awwal Tech SurveysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46EBFFC86130198A8E6B87D5 /* Pods_Awwal_Tech_Surveys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Awwal_Tech_Surveys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A04C9F0234CEFB5007DAD00 /* backarrowicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrowicon.png; sourceTree = "<group>"; };
+		6A9FE02A234A50BA008E3849 /* SurveyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFormViewController.swift; sourceTree = "<group>"; };
+		6A9FE02C234A54BF008E3849 /* FormPopulateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPopulateData.swift; sourceTree = "<group>"; };
+		6A9FE02E234A57F3008E3849 /* SurveyFormExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFormExtension.swift; sourceTree = "<group>"; };
+		6A9FE030234A58D6008E3849 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6A9FE033234A5CE4008E3849 /* GTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTableViewCell.swift; sourceTree = "<group>"; };
+		6A9FE034234A5CE4008E3849 /* checkboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkboxTableViewCell.swift; sourceTree = "<group>"; };
+		6A9FE037234A5CE5008E3849 /* RadioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioTableViewCell.swift; sourceTree = "<group>"; };
+		6AC97B03234BC6FA00B56A51 /* DynamicQuestionAns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicQuestionAns.swift; sourceTree = "<group>"; };
+		6AC97B05234BCF5C00B56A51 /* TextAreaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaTableViewCell.swift; sourceTree = "<group>"; };
+		7486CCB644B1C2E6304AF1A3 /* Pods-Awwal Tech Surveys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech Surveys.release.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech Surveys/Pods-Awwal Tech Surveys.release.xcconfig"; sourceTree = "<group>"; };
+		B728E8E7D16DA544962D66FD /* Pods-Awwal Tech SurveysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech SurveysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech SurveysTests/Pods-Awwal Tech SurveysTests.release.xcconfig"; sourceTree = "<group>"; };
+		C70FD2F027BE60D328FA236B /* Pods-Awwal Tech Surveys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech Surveys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech Surveys/Pods-Awwal Tech Surveys.debug.xcconfig"; sourceTree = "<group>"; };
+		CB179BD2CFFBCAA332AE1600 /* Pods-Awwal Tech SurveysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awwal Tech SurveysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Awwal Tech SurveysTests/Pods-Awwal Tech SurveysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97A9540670AE6580151794A /* Pods_Awwal_Tech_SurveysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Awwal_Tech_SurveysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADAAB3F233E125F00BAD8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95F1097B723932F3DF832CA /* Pods_Awwal_Tech_Surveys.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB55233E126100BAD8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF347C07CA7699471B9E68E /* Pods_Awwal_Tech_SurveysTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB60233E126100BAD8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C171DE8B830847D8D2160D3A /* Pods_Awwal_Tech_SurveysUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A156EE5233E46E40059AA8E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A04C9F0234CEFB5007DAD00 /* backarrowicon.png */,
+				1AD6D0E2233E208A000880B5 /* awwal.png */,
+				1AD6D0E3233E208A000880B5 /* awwalsurvey.png */,
+				1AD6D0E4233E208A000880B5 /* life.png */,
+				1ADAAB75233E136900BAD8C6 /* splash.png */,
+				1AD6D0E0233E18AE000880B5 /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1A156EEF233F7A540059AA8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A156EF0233F7A540059AA8E /* Extensino+View.swift */,
+				1A156EF1233F7A540059AA8E /* Extension+Color.swift */,
+				6A9FE02E234A57F3008E3849 /* SurveyFormExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1AD6D0C9233E1777000880B5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6D0FA233E2EAB000880B5 /* Calibri Bold Italic.ttf */,
+				1AD6D0FC233E2EAB000880B5 /* Calibri Bold.TTF */,
+				1AD6D0FD233E2EAB000880B5 /* Calibri Italic.ttf */,
+				1AD6D0FB233E2EAB000880B5 /* Calibri Light Italic.ttf */,
+				1AD6D0FF233E2EAB000880B5 /* Calibri Light.ttf */,
+				1AD6D0FE233E2EAB000880B5 /* Calibri Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1ADAAB39233E125F00BAD8C6 = {
+			isa = PBXGroup;
+			children = (
+				1ADAAB44233E125F00BAD8C6 /* Awwal Tech Surveys */,
+				1ADAAB5B233E126100BAD8C6 /* Awwal Tech SurveysTests */,
+				1ADAAB66233E126100BAD8C6 /* Awwal Tech SurveysUITests */,
+				1ADAAB43233E125F00BAD8C6 /* Products */,
+				4EB3CD3779ABCF54A3BEB486 /* Pods */,
+				269B9270088613BCAEE2F55F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADAAB43233E125F00BAD8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAAB42233E125F00BAD8C6 /* Awwal Tech Surveys.app */,
+				1ADAAB58233E126100BAD8C6 /* Awwal Tech SurveysTests.xctest */,
+				1ADAAB63233E126100BAD8C6 /* Awwal Tech SurveysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADAAB44233E125F00BAD8C6 /* Awwal Tech Surveys */ = {
+			isa = PBXGroup;
+			children = (
+				6A9FE032234A5BDD008E3849 /* QuestionsCells */,
+				1A156EEF233F7A540059AA8E /* Extension */,
+				1A156EE5233E46E40059AA8E /* Images */,
+				1ADAAB45233E125F00BAD8C6 /* AppDelegate.swift */,
+				1ADAAB47233E125F00BAD8C6 /* SceneDelegate.swift */,
+				1ADAAB49233E125F00BAD8C6 /* ViewController.swift */,
+				1ADAAB4B233E125F00BAD8C6 /* Main.storyboard */,
+				1AD6D0C9233E1777000880B5 /* Fonts */,
+				1ADAAB50233E126100BAD8C6 /* LaunchScreen.storyboard */,
+				1ADAAB53233E126100BAD8C6 /* Info.plist */,
+				6A9FE02A234A50BA008E3849 /* SurveyFormViewController.swift */,
+				1AD6D0E8233E23AB000880B5 /* LoginViewController.swift */,
+				1A156EED233F79910059AA8E /* CustomAlert.swift */,
+				1A71696B2341FD29007F18EE /* checked.png */,
+				1A71696C2341FD2A007F18EE /* radio_black.png */,
+				1A71696D2341FD2B007F18EE /* radio_fill.png */,
+				1A71696A2341FD28007F18EE /* uncheck.png */,
+				1AD6D0F2233E27E4000880B5 /* Assets.xcassets */,
+				1A1BB0302345FD6900B357A2 /* veritas.jpg */,
+				1A156EE6233E471C0059AA8E /* UserDetailViewController.swift */,
+				1A156EEA233F66D90059AA8E /* AppSwiftData.swift */,
+				1A156EE8233F5D180059AA8E /* AppDataSwift.swift */,
+				6A9FE02C234A54BF008E3849 /* FormPopulateData.swift */,
+				6A9FE030234A58D6008E3849 /* Constants.swift */,
+				6AC97B03234BC6FA00B56A51 /* DynamicQuestionAns.swift */,
+			);
+			path = "Awwal Tech Surveys";
+			sourceTree = "<group>";
+		};
+		1ADAAB5B233E126100BAD8C6 /* Awwal Tech SurveysTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAAB5C233E126100BAD8C6 /* Awwal_Tech_SurveysTests.swift */,
+				1ADAAB5E233E126100BAD8C6 /* Info.plist */,
+			);
+			path = "Awwal Tech SurveysTests";
+			sourceTree = "<group>";
+		};
+		1ADAAB66233E126100BAD8C6 /* Awwal Tech SurveysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADAAB67233E126100BAD8C6 /* Awwal_Tech_SurveysUITests.swift */,
+				1ADAAB69233E126100BAD8C6 /* Info.plist */,
+			);
+			path = "Awwal Tech SurveysUITests";
+			sourceTree = "<group>";
+		};
+		269B9270088613BCAEE2F55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFFC86130198A8E6B87D5 /* Pods_Awwal_Tech_Surveys.framework */,
+				D97A9540670AE6580151794A /* Pods_Awwal_Tech_SurveysTests.framework */,
+				3996E90C566566E91AEEEA88 /* Pods_Awwal_Tech_SurveysUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB3CD3779ABCF54A3BEB486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C70FD2F027BE60D328FA236B /* Pods-Awwal Tech Surveys.debug.xcconfig */,
+				7486CCB644B1C2E6304AF1A3 /* Pods-Awwal Tech Surveys.release.xcconfig */,
+				CB179BD2CFFBCAA332AE1600 /* Pods-Awwal Tech SurveysTests.debug.xcconfig */,
+				B728E8E7D16DA544962D66FD /* Pods-Awwal Tech SurveysTests.release.xcconfig */,
+				0028C6F3F9E49A8A9D6B5FD0 /* Pods-Awwal Tech SurveysUITests.debug.xcconfig */,
+				44B6E420AD1563FD0719ACCE /* Pods-Awwal Tech SurveysUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A9FE032234A5BDD008E3849 /* QuestionsCells */ = {
+			isa = PBXGroup;
+			children = (
+				6A9FE034234A5CE4008E3849 /* checkboxTableViewCell.swift */,
+				6A9FE033234A5CE4008E3849 /* GTableViewCell.swift */,
+				6A9FE037234A5CE5008E3849 /* RadioTableViewCell.swift */,
+				6AC97B05234BCF5C00B56A51 /* TextAreaTableViewCell.swift */,
+			);
+			path = QuestionsCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADAAB41233E125F00BAD8C6 /* Awwal Tech Surveys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADAAB6C233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech Surveys" */;
+			buildPhases = (
+				85F0F5752D1BDD19F561958E /* [CP] Check Pods Manifest.lock */,
+				1ADAAB3E233E125F00BAD8C6 /* Sources */,
+				1ADAAB3F233E125F00BAD8C6 /* Frameworks */,
+				1ADAAB40233E125F00BAD8C6 /* Resources */,
+				8768A2F394BC534A8CB1EDFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awwal Tech Surveys";
+			productName = "Awwal Tech Surveys";
+			productReference = 1ADAAB42233E125F00BAD8C6 /* Awwal Tech Surveys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADAAB57233E126100BAD8C6 /* Awwal Tech SurveysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADAAB6F233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech SurveysTests" */;
+			buildPhases = (
+				EE68031141724AF0CEC217C1 /* [CP] Check Pods Manifest.lock */,
+				1ADAAB54233E126100BAD8C6 /* Sources */,
+				1ADAAB55233E126100BAD8C6 /* Frameworks */,
+				1ADAAB56233E126100BAD8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADAAB5A233E126100BAD8C6 /* PBXTargetDependency */,
+			);
+			name = "Awwal Tech SurveysTests";
+			productName = "Awwal Tech SurveysTests";
+			productReference = 1ADAAB58233E126100BAD8C6 /* Awwal Tech SurveysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ADAAB62233E126100BAD8C6 /* Awwal Tech SurveysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADAAB72233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech SurveysUITests" */;
+			buildPhases = (
+				B732E8B459F3D92446C28635 /* [CP] Check Pods Manifest.lock */,
+				1ADAAB5F233E126100BAD8C6 /* Sources */,
+				1ADAAB60233E126100BAD8C6 /* Frameworks */,
+				1ADAAB61233E126100BAD8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADAAB65233E126100BAD8C6 /* PBXTargetDependency */,
+			);
+			name = "Awwal Tech SurveysUITests";
+			productName = "Awwal Tech SurveysUITests";
+			productReference = 1ADAAB63233E126100BAD8C6 /* Awwal Tech SurveysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADAAB3A233E125F00BAD8C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Gexton;
+				TargetAttributes = {
+					1ADAAB41233E125F00BAD8C6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					1ADAAB57233E126100BAD8C6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1ADAAB41233E125F00BAD8C6;
+					};
+					1ADAAB62233E126100BAD8C6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1ADAAB41233E125F00BAD8C6;
+					};
+				};
+			};
+			buildConfigurationList = 1ADAAB3D233E125F00BAD8C6 /* Build configuration list for PBXProject "Awwal Tech Surveys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADAAB39233E125F00BAD8C6;
+			productRefGroup = 1ADAAB43233E125F00BAD8C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADAAB41233E125F00BAD8C6 /* Awwal Tech Surveys */,
+				1ADAAB57233E126100BAD8C6 /* Awwal Tech SurveysTests */,
+				1ADAAB62233E126100BAD8C6 /* Awwal Tech SurveysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADAAB40233E125F00BAD8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAAB76233E136900BAD8C6 /* splash.png in Resources */,
+				1AD6D104233E2EAB000880B5 /* Calibri Regular.ttf in Resources */,
+				1A7169712341FD2C007F18EE /* radio_fill.png in Resources */,
+				1A1BB0312345FD6900B357A2 /* veritas.jpg in Resources */,
+				1A71696E2341FD2C007F18EE /* uncheck.png in Resources */,
+				6A04C9F1234CEFB6007DAD00 /* backarrowicon.png in Resources */,
+				1AD6D0F3233E27E4000880B5 /* Assets.xcassets in Resources */,
+				1A7169702341FD2C007F18EE /* radio_black.png in Resources */,
+				1AD6D0E5233E208A000880B5 /* awwal.png in Resources */,
+				1A71696F2341FD2C007F18EE /* checked.png in Resources */,
+				1AD6D102233E2EAB000880B5 /* Calibri Bold.TTF in Resources */,
+				1ADAAB52233E126100BAD8C6 /* LaunchScreen.storyboard in Resources */,
+				1AD6D105233E2EAB000880B5 /* Calibri Light.ttf in Resources */,
+				1AD6D0E7233E208A000880B5 /* life.png in Resources */,
+				1AD6D0E1233E18AE000880B5 /* logo.png in Resources */,
+				1AD6D0E6233E208A000880B5 /* awwalsurvey.png in Resources */,
+				1AD6D100233E2EAB000880B5 /* Calibri Bold Italic.ttf in Resources */,
+				1AD6D101233E2EAB000880B5 /* Calibri Light Italic.ttf in Resources */,
+				1AD6D103233E2EAB000880B5 /* Calibri Italic.ttf in Resources */,
+				1ADAAB4D233E125F00BAD8C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB56233E126100BAD8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB61233E126100BAD8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85F0F5752D1BDD19F561958E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Awwal Tech Surveys-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8768A2F394BC534A8CB1EDFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Awwal Tech Surveys/Pods-Awwal Tech Surveys-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Awwal Tech Surveys/Pods-Awwal Tech Surveys-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Awwal Tech Surveys/Pods-Awwal Tech Surveys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B732E8B459F3D92446C28635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Awwal Tech SurveysUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE68031141724AF0CEC217C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Awwal Tech SurveysTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADAAB3E233E125F00BAD8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9FE039234A5CE5008E3849 /* checkboxTableViewCell.swift in Sources */,
+				1AD6D0E9233E23AB000880B5 /* LoginViewController.swift in Sources */,
+				6A9FE03C234A5CE5008E3849 /* RadioTableViewCell.swift in Sources */,
+				6A9FE02D234A54BF008E3849 /* FormPopulateData.swift in Sources */,
+				1A156EE9233F5D180059AA8E /* AppDataSwift.swift in Sources */,
+				1A156EE7233E471C0059AA8E /* UserDetailViewController.swift in Sources */,
+				1A156EEB233F66D90059AA8E /* AppSwiftData.swift in Sources */,
+				1ADAAB4A233E125F00BAD8C6 /* ViewController.swift in Sources */,
+				1A156EF2233F7A560059AA8E /* Extensino+View.swift in Sources */,
+				1ADAAB46233E125F00BAD8C6 /* AppDelegate.swift in Sources */,
+				1A156EF3233F7A560059AA8E /* Extension+Color.swift in Sources */,
+				6A9FE02F234A57F3008E3849 /* SurveyFormExtension.swift in Sources */,
+				6A9FE038234A5CE5008E3849 /* GTableViewCell.swift in Sources */,
+				1ADAAB48233E125F00BAD8C6 /* SceneDelegate.swift in Sources */,
+				6A9FE031234A58D6008E3849 /* Constants.swift in Sources */,
+				1A156EEE233F79910059AA8E /* CustomAlert.swift in Sources */,
+				6AC97B04234BC6FA00B56A51 /* DynamicQuestionAns.swift in Sources */,
+				6A9FE02B234A50BA008E3849 /* SurveyFormViewController.swift in Sources */,
+				6AC97B06234BCF5C00B56A51 /* TextAreaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB54233E126100BAD8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAAB5D233E126100BAD8C6 /* Awwal_Tech_SurveysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADAAB5F233E126100BAD8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAAB68233E126100BAD8C6 /* Awwal_Tech_SurveysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADAAB5A233E126100BAD8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADAAB41233E125F00BAD8C6 /* Awwal Tech Surveys */;
+			targetProxy = 1ADAAB59233E126100BAD8C6 /* PBXContainerItemProxy */;
+		};
+		1ADAAB65233E126100BAD8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADAAB41233E125F00BAD8C6 /* Awwal Tech Surveys */;
+			targetProxy = 1ADAAB64233E126100BAD8C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADAAB4B233E125F00BAD8C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADAAB4C233E125F00BAD8C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADAAB50233E126100BAD8C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADAAB51233E126100BAD8C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADAAB6A233E126100BAD8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADAAB6B233E126100BAD8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADAAB6D233E126100BAD8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70FD2F027BE60D328FA236B /* Pods-Awwal Tech Surveys.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8929BPWX99;
+				INFOPLIST_FILE = "Awwal Tech Surveys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Awwal.Tech-Surveys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADAAB6E233E126100BAD8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7486CCB644B1C2E6304AF1A3 /* Pods-Awwal Tech Surveys.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8929BPWX99;
+				INFOPLIST_FILE = "Awwal Tech Surveys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Awwal.Tech-Surveys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ADAAB70233E126100BAD8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB179BD2CFFBCAA332AE1600 /* Pods-Awwal Tech SurveysTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Awwal Tech SurveysTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.Awwal-Tech-SurveysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awwal Tech Surveys.app/Awwal Tech Surveys";
+			};
+			name = Debug;
+		};
+		1ADAAB71233E126100BAD8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B728E8E7D16DA544962D66FD /* Pods-Awwal Tech SurveysTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Awwal Tech SurveysTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.Awwal-Tech-SurveysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awwal Tech Surveys.app/Awwal Tech Surveys";
+			};
+			name = Release;
+		};
+		1ADAAB73233E126100BAD8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0028C6F3F9E49A8A9D6B5FD0 /* Pods-Awwal Tech SurveysUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Awwal Tech SurveysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.Awwal-Tech-SurveysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Awwal Tech Surveys";
+			};
+			name = Debug;
+		};
+		1ADAAB74233E126100BAD8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B6E420AD1563FD0719ACCE /* Pods-Awwal Tech SurveysUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Awwal Tech SurveysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.Awwal-Tech-SurveysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Awwal Tech Surveys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADAAB3D233E125F00BAD8C6 /* Build configuration list for PBXProject "Awwal Tech Surveys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAAB6A233E126100BAD8C6 /* Debug */,
+				1ADAAB6B233E126100BAD8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADAAB6C233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech Surveys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAAB6D233E126100BAD8C6 /* Debug */,
+				1ADAAB6E233E126100BAD8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADAAB6F233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech SurveysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAAB70233E126100BAD8C6 /* Debug */,
+				1ADAAB71233E126100BAD8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADAAB72233E126100BAD8C6 /* Build configuration list for PBXNativeTarget "Awwal Tech SurveysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADAAB73233E126100BAD8C6 /* Debug */,
+				1ADAAB74233E126100BAD8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADAAB3A233E125F00BAD8C6 /* Project object */;
+}

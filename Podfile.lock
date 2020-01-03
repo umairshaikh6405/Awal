@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (5.0.0-beta.6)
+  - BEMCheckBox (1.4.1)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - MultilineTextField (0.2.3)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.0.0-beta.6)
+  - BEMCheckBox
+  - EVReflection
+  - MRProgress
+  - MultilineTextField
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SwiftyJSON
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BEMCheckBox
+    - EVReflection
+    - MRProgress
+    - MultilineTextField
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  MultilineTextField: 10965d9c3e05a182181bd7971eb009c7607001ae
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: c85e93a22ba971bc945dfaf115f3644f638e5e17
+
+COCOAPODS: 1.7.5
